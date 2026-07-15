@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+<form name="bookMarkForm">
+  <div class="mb-3">
+    <label for="userName" class="form-label">url</label>
+    <input type="text" name="url" class="form-control" id="url" aria-describedby="emailHelp">
+  </div>
+
+    <div class="mb-3">
+    <label for="userName" class="form-label">name</label>
+    <input type="text" name="name" class="form-control" id="userName" aria-describedby="emailHelp">
+  </div>
+
+
+    <div class="mb-3">
+    <label for="userName" class="form-label">email</label>
+    <input type="email" name="email" class="form-control" id="userName" aria-describedby="emailHelp">
+  </div>
+
+
+    <div class="mb-3">
+    <label for="userName" class="form-label">password</label>
+    <input type="password" name="password" class="form-control" id="userName" aria-describedby="emailHelp">
+  </div>
+
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">index</th>
+      <th scope="col">url</th>
+      <th scope="col">site name</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody class="data">
+  
+  </tbody>
+</table>
+ 
+  <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+  <script src="./node_modules/just-validate/dist/just-validate.production.min.js"></script>
+
+    <script src="./main.js"></script>  
+</body>
+</html>
